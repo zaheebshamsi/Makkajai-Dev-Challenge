@@ -60,7 +60,7 @@ class Grocery:
                                                               product_name_quantity)
 
                 elif not temp and "imported" not in product_name_quantity:
-                    taxable_percent = 5
+                    taxable_percent = 10
                     x, sales_tax_total = Grocery.calculations(taxable_percent, product_cost, sales_tax_total,
                                                               total_amount_prod,
                                                               product_name_quantity)
